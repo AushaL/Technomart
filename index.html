@@ -10,22 +10,33 @@
 <body>
 
 	<header>
-		<img src="" alt="logo">
-		<form>
-			<p><input type="search" name="q" placeholder="Поиск"></p>
-		</form>
-		<p>Закладки:</p>
-		<p>Корзина</p>
-		<p>Оформить заказ</p>
-		<section>
-			<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+
+		<div class="header-top">
+
+			<img src="" alt="logo">
+			<form>
+				<p><input type="search" name="q" placeholder="Поиск:"></p>
+			</form>
+			<a href="#">Закладки: 0</a>
+			<a href="#">Корзина: 0</a>
+			<a href="#">Оформить заказ</a>
+
+		</div>
+
+		<div class="header-middle">
+
+			<p>Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
+
 			<div class="call"><a href="tel:+78125550555">+7 (812) 555-05-55</a></div>
-			<button>Войти</button>
-			<button>регистрация</button>
-		</section>
-		<nav>
+			<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+			<div>
+				<button>Войти</button>
+				<button>регистрация</button>
+			</div>
+		</div>
+		<nav class="header-nav">
 			<ul>
-				<li><a href="#">Главная</a></li>
+				<li><a href="index.html">Главная</a></li>
 				<li><a href="#">Компания</a></li>
 				<li><a href="#">Каталог</a></li>
 				<li><a href="#">Новости</a></li>
@@ -37,9 +48,60 @@
 	</header>
 
 	<main>
+
 		<section>
-			<h2 hidden>каталоги товаров</h2>
+
+			<h2 hidden>Что мы предлагаем</h2>
+
+			<div class="offer-top">
+				<div class="materials mark-new">
+					<p>Материалы</p>
+					<a href="#">на любой вкус</a>
+				</div>
+				<div class="tools">
+					<p>Инструмент</p>
+					<a href="#">на все случаи</a>
+				</div>
+			</div>
+
+			<div class="offer-right">
+
+				<div class="tech">
+					<p>Техника</p>
+					<a href="">для стройки</a>
+				</div>
+				<div class="sales">
+					<p>Скидки 50%</p>
+					<a href="">на 350 товаров</a>
+				</div>
+				<div class="delivery">
+					<p>Доставка</p>
+					<a href="">бесплатно</a>
+				</div>
+
+			</div>
+
+			<div class="slider">
+
+				<div class="slider-box">
+					<div class="slider-top">
+						<p>перфораторы</p>
+						<p>Настоящие мужские игрушки</p>
+					</div>
+					<a href="#">Открыть каталог</a>
+				</div>
+				<div class="slider-box">
+					<div class="slider-top">
+						<p>дрели</p>
+						<p>Соседям на радость!</p>
+					</div>
+					<a href="#">Открыть каталог</a>
+				</div>
+
+			</div>
+
 		</section>
+
 		<section>
 			<div class="popular">
 				<h2>популярные товары:</h2>
@@ -109,7 +171,7 @@
 			</div>
 		</section>
 		<section>
-			<h2>Сервисы</h2>
+			<h2>cервисы</h2>
 			<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать
 				ваши покупки приятными.</p>
 			<div></div>
@@ -140,7 +202,7 @@
 		<div>
 			<img src="" alt="logo">
 			<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</p>
-			<nav class="about-company">
+			<nav class="footer-nav">
 				<ul>
 					<li><a href=""></a></li>
 					<li><a href=""></a></li>
@@ -149,7 +211,7 @@
 					<li><a href=""></a></li>
 				</ul>
 			</nav>
-			<nav class="products">
+			<nav class="footer-nav products">
 				<ul>
 					<li></li>
 					<li></li>
@@ -166,8 +228,8 @@
 				<li><a href=""><img src="" alt="facebook"></a></li>
 				<li><a href=""><img src="" alt="instagram"></a></li>
 			</ul>
-			<p></p>
-			<p></p>
+			<p>Обратная связь: <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+			<p>Разработано - <a href="https://htmlacademy.ru">htmlacademy.ru</a></p>
 		</div>
 
 	</footer>
