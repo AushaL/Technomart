@@ -29,3 +29,7 @@
 body {
 	font-family: 'Cuprum';
 }
+
+li {
+	list-style: none;
+}
